@@ -1,0 +1,31 @@
+OpenEmbedded/Yocto layer for for Inter-Processor Communication
+==============================================================
+
+This layer provides support for Inter-Processor Communication for use with
+OpenEmbedded and/or Yocto.
+
+This layer depends on:
+
+URI: git://git.openembedded.org/openembedded-core
+branch: sumo
+revision: HEAD
+
+For NXP i.MX related machines this layer depends on:
+
+URI: git://git.yoctoproject.org/meta-freescale
+branch: sumo
+revision: HEAD
+
+URI: git://git.yoctoproject.org/meta-freescale-3rdparty
+branch: sumo
+revision: HEAD
+
+Contributing
+------------
+
+Use the Github Pull Request feature for contributing with changes
+
+Source code:
+
+    https://github.com/diegosueiro/meta-ipc
+
